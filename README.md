@@ -39,6 +39,8 @@ https://fonts.google.com/specimen/Poppins
 | Amarillo | ![#FFDA1B](https://via.placeholder.com/10/FFDA1B?text=+) #FFDA1B |
 | Azul (Enlaces) | ![#0049C8](https://via.placeholder.com/10/0049C8?text=+) #0049C8 |
 | Gris (Fondo) | ![#F5F5F5](https://via.placeholder.com/10/F5F5F5?text=+) #F5F5F5 |
+| Negro (Letras) | ![#333333](https://via.placeholder.com/10/333333?text=+) #333333 |
+
 
 Diseño
 
