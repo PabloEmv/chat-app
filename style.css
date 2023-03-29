@@ -1,0 +1,100 @@
+main {
+  margin-top: 20vh;
+  padding: 0 10vw;
+  display: flex;
+}
+
+main > figure > img {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main > section,
+main > figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+main > section > h1 {
+  padding: 0 30px;
+  color: #0049c8;
+  font-size: 1.8rem;
+}
+
+main > section > h2 {
+  padding: 0 80px;
+  font-size: 1.2rem;
+}
+
+.buttons_auth {
+  padding: 0 10vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons_auth > button {
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 2px solid #ffda1b;
+  color: #333333;
+  cursor: pointer;
+}
+
+.button_login {
+  background-color: #ffda1b;
+}
+
+.button_login:hover {
+  border-color: #ffffff;
+  background-color: #0049c8;
+  color: #ffffff;
+}
+
+.button_register {
+  background-color: #ffffff;
+}
+
+.button_register:hover {
+  border-color: #0049c8;
+}
+
+.buttons_auth > button:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+  main > section > h1 {
+    padding: 0 0;
+    font-size: 1.3rem;
+  }
+
+  main > section > h2 {
+    padding: 0 20px;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  main {
+    flex-direction: column;
+  }
+  main > figure {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main {
+    margin-top: 8vh;
+  }
+  main > figure > img {
+    display: none;
+  }
+}
