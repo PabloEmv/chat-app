@@ -37,7 +37,7 @@ main > form {
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    border: 2px solid #e4e2e2;
+    border: 1px solid #0049C8;
 }
 
 main > form > input, main > form > textarea, .send_button {
