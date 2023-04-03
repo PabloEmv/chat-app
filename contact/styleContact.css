@@ -1,6 +1,7 @@
 
 main {
-    padding: 15vh 20vw;
+    margin: 8vh 0;
+    padding: 0 20vw;
     display: flex;
     justify-content: space-between;
 }
