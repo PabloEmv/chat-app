@@ -1,0 +1,56 @@
+main {
+  margin: 8vh 0;
+  padding: 0 15vw;
+  display: flex;
+}
+
+main > section > h2 {
+  font-size: 1.8rem;
+}
+
+main > section > ul > li {
+  font-size: 1.2rem;
+}
+
+main > figure {
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1440px) {
+  main {
+    padding: 0 10vw;
+  }
+  main > section > h2 {
+    font-size: 1.2rem;
+  }
+  main > section > ul > li {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  main {
+    flex-direction: column;
+  }
+  main > figure > img {
+    display: none;
+  }
+  main > section > h2 {
+    font-size: 1.4rem;
+  }
+  main > section > ul > li {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  main > section > h2 {
+    font-size: 1.2rem;
+  }
+  main > section > ul > li {
+    font-size: 1rem;
+  }
+}
