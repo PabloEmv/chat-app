@@ -1,5 +1,5 @@
 main {
-  margin-top: 20vh;
+  margin: 5vh 0;
   padding: 0 10vw;
   display: flex;
 }
@@ -69,29 +69,6 @@ main > section > h2 {
   font-weight: 500;
 }
 
-/* <------- Estilos del navbar ------> */
-#logonav {
-  height: 120px;
-}
-
-header nav a {  
-  text-decoration: none;
-  color: black;    
-}
-nav a:hover{
-  color: #0049c8;
-}
-header nav {
-  display: flex;
-  padding: 30px 120px 0px 100px;  
-  justify-content: space-between;
-  
-}
-.menu{
-  margin-top: 40px;
-  word-spacing: 0.50em;
-}
-
 @media screen and (max-width: 1024px) {
   main > section > h1 {
     padding: 0 0;
@@ -111,13 +88,6 @@ header nav {
   main > figure {
     flex-direction: row;
   }
-  header nav {
-    flex-direction: column;
-  }
-  .menu {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 @media screen and (max-width: 425px) {
@@ -126,12 +96,5 @@ header nav {
   }
   main > figure > img {
     display: none;
-  }
-  header nav {
-    flex-direction: column;
-  }
-  .menu {
-    display: flex;
-    flex-direction: column;
   }
 }
