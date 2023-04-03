@@ -1,0 +1,49 @@
+/* <------- Estilos del navbar ------> */
+
+#logonav {
+  height: 120px;
+}
+
+.active_link {
+  color: #0049c8;
+  font-weight: bold;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: #0049c8;
+}
+header nav {
+  display: flex;
+  padding: 30px 120px 0px 100px;
+  justify-content: space-between;
+}
+.menu {
+  margin-top: 40px;
+  word-spacing: 0.5em;
+}
+
+/* responsividad */
+
+@media screen and (max-width: 425px) {
+  header nav {
+    flex-direction: column;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header > nav > div {
+    display: flex;
+    justify-content: center;
+  }
+
+  header nav a {
+    margin-bottom: 10px;
+  }
+}
