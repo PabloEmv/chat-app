@@ -5,23 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chagt | Contacto</title>
-    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../generalStyles.css" />
     <link rel="stylesheet" href="./styleContact.css" />
-    <link rel="stylesheet" href="../headerStyles.css">
+    <link rel="stylesheet" href="../headerStyles.css" />
+    <script src="./contact.js" defer></script>
   </head>
   <body>
     <header>
       <nav>
         <div>
-          <img src="../assets/logo.png" alt="Imagen de un logo, con un gato negro y un fondo amarillo semicircular" id="logonav">
+          <img
+            src="../assets/logo.png"
+            alt="Imagen de un logo, con un gato negro y un fondo amarillo semicircular"
+            id="logonav"
+          />
         </div>
         <div class="menu">
           <a href="../index.html">Inicio</a>
           <a href="../product/product.html">Producto</a>
           <a href="./contact.html" class="active_link">Contáctanos</a>
         </div>
-    </nav>
+      </nav>
     </header>
     <main>
       <section>
@@ -44,6 +49,28 @@
           placeholder=" Tu nombre"
           required
         />
+        <span id="name_error" class="error_text"></span>
+
+        <label for="phone">Teléfono</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder=" Tu teléfono"
+          required
+        />
+        <span id="phone_error" class="error_text"></span>
+
+        <label for="rut">RUT</label>
+        <input
+          type="text"
+          id="rut"
+          name="rut"
+          placeholder="12345678-9"
+          required
+        />
+        <span id="rut_error" class="error_text"></span>
+
         <label for="email">Correo electrónico</label>
         <input
           type="email"
@@ -52,8 +79,17 @@
           placeholder=" E-mail"
           required
         />
+        <span id="email_error" class="error_text"></span>
+
         <label for="message">Mensaje</label>
-        <textarea id="message" name="message" placeholder=" Mensaje" required></textarea>
+        <textarea
+          id="message"
+          name="message"
+          placeholder=" Mensaje"
+          required
+        ></textarea>
+        <span id="message_error" class="error_text"></span>
+
         <button type="submit" class="send_button">Enviar mensaje</button>
       </form>
     </main>
