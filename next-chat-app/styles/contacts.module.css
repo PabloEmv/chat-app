@@ -1,0 +1,36 @@
+.my_contacts {
+  background-color: white;
+  grid-area: mc;
+  border-radius: 15px;
+  gap: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.contacts_list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    max-height: 60vh;
+    padding: 20px;
+    flex: 3;
+  }
+
+  .add_contacts {
+    background-color: white;
+    grid-area: ac;
+    border-radius: 15px;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+  }
+
+  .add_user {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    scrollbar-width: none;
+    max-height: 70vh;
+  }

@@ -1,0 +1,47 @@
+.button_request {
+  height: 40px;
+  width: fit-content;
+  background-color: #ffd91bba;
+  color: #555;
+  font-weight: 600;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.button_request:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.unfollow_text {
+  display: none;
+  color: white;
+}
+
+.button_request.hover_unfollow:hover {
+  background-color: #fb5151;
+}
+.button_request.hover_unfollow:hover .default_text {
+  display: none;
+}
+.button_request.hover_unfollow:hover .unfollow_text {
+  display: block;
+}
+
+.bg_blue {
+  background-color: #0689f5;
+  color: white;
+}
+.bg_blue:hover {
+  background-color: #027de2;
+}
+.bg_red {
+  background-color: #fb5151;
+  color: white;
+}
+.bg_red:hover {
+  background-color: #ba0808;
+}

@@ -1,0 +1,36 @@
+.chat_user_info {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.chat_user_info > p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.preview_message {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+}
+
+.chat_user {
+  display: flex;
+  align-items: center;
+  background-color: #fbd05162;
+  margin: 5px 0;
+  padding: 6px;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .preview_message {
+    display: none;
+  }
+  .chat_user {
+    height: fit-content;
+  }
+}
