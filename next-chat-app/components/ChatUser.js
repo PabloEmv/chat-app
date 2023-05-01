@@ -1,17 +1,17 @@
 import styles from "./chatuser.module.css";
 
-export default function ChatUser() {
+export default function ChatUser({userimage, username, lastmessage }) {
   return (
     <div className={styles.chat_user}>
       <img
-        src="https://picsum.photos/50"
+        src={userimage}
         alt="imagen de usuario"
         className="user-img"
       />
       <div className={styles.chat_user_info}>
-        <span style={{display: "inline"}}>user name</span>
+        <span style={{display: "inline"}}>{username}</span>
         <p className={styles.preview_message}>
-          lorem ipsum dolor sit amet, consectetur adipis
+          {lastmessage}
         </p>
       </div>
     </div>

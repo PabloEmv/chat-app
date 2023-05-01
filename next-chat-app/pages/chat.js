@@ -17,8 +17,6 @@ export default function Chat() {
     router.push("/");
     return null;
   }
-
-  console.log(user);
   
   return (
     <main className="chat-screen">

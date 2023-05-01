@@ -11,3 +11,8 @@
   .user_request_card:hover {
     box-shadow: 0px 0px 8px 0px #fbd051;
   }
+
+  .user_request_name {
+    font-size: 0.9rem;
+    max-width: 60px;
+  }

@@ -22,7 +22,7 @@ export default function UserRequest() {
             border: "2px solid #ccc",
           }}
         />
-        <span>username</span>
+        <span className={styles.user_request_name}>username</span>
       </div>
       <div style={{ display: "flex", gap: "10px"}}>
       <ButtonRequest buttonType />
