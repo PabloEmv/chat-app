@@ -50,3 +50,16 @@
   padding: 5px;
   color: red;
 }
+
+.google_button {
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ff5757;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}

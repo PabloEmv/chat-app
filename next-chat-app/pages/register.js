@@ -60,7 +60,7 @@ export default function Register() {
           <h1 style={{ textAlign: "center", margin: "0" }}>Regístrate</h1>
           <p style={{ textAlign: "center", margin: "0 0 25px 0" }}>
             ¿Ya tienes cuenta?{" "}
-            <Link href="/chat" className="text-link">
+            <Link href="/login" className="text-link">
               Inicia Sesión
             </Link>
           </p>
