@@ -12,10 +12,10 @@ Las páginas privadas contienen la funcionalidad de registro e inicio de sesión
 La autenticación y la edición de perfil están habilitadas, aunque todavía falta agregar funcionalidad al chat.
 
 ## Zona Pública
-```https://pabloemv.github.io/chat-app/```
+https://pabloemv.github.io/chat-app/
 
 ## Zona Privada
-```https://next-chat-app-private-808bz1ymo-pabloemv.vercel.app/login```
+https://next-chat-app-private-808bz1ymo-pabloemv.vercel.app/login
 
 usuario: demo@gmail.com
 contraseña: 123456
