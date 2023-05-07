@@ -36,13 +36,23 @@ main > section > h2 {
   flex-direction: column;
 }
 
-.buttons_auth > button {
+.buttons_auth a {
   padding: 15px;
   margin-top: 20px;
   border-radius: 8px;
   border: 2px solid #ffda1b;
   color: #333333;
   cursor: pointer;
+}
+
+.buttons_auth a:hover {
+  cursor: pointer;
+}
+
+.buttons_auth button {
+  background: none;
+  border: none;
+  font-size: 1rem;
 }
 
 .button_login {
@@ -63,7 +73,7 @@ main > section > h2 {
   border-color: #0049c8;
 }
 
-.buttons_auth > button:hover {
+.buttons_auth > a:hover {
   transform: scale(1.03);
   transition: 0.3s;
   font-weight: 500;
