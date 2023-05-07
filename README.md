@@ -25,7 +25,7 @@ contraseña: 123456
 HTML, CSS y JavaScript para las páginas públicas.
 React para la implementación de las páginas privadas.
 Firebase Authentication para la funcionalidad de registro e inicio de sesión.
-Firebase Realtime Database para el almacenamiento y envío de mensajes en tiempo real.
+Firebase Database para el almacenamiento de mensajes y Firebase storage para el almacenamiento de archivos.
 
 
 ## Instalación
