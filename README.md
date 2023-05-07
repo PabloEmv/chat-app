@@ -8,8 +8,17 @@ Las páginas públicas incluyen una página de inicio con información sobre la 
 Las páginas privadas contienen la funcionalidad de registro e inicio de sesión, junto con la capacidad de agregar amigos y recibir notificaciones sobre las solicitudes de amistad pendientes, así como la capacidad de enviar y recibir mensajes en tiempo real con amigos.
 
 
+## Demo
+La autenticación y la edición de perfil están habilitadas, aunque todavía falta agregar funcionalidad al chat.
 
+## Zona Pública
+```https://pabloemv.github.io/chat-app/```
 
+## Zona Privada
+```https://next-chat-app-private-808bz1ymo-pabloemv.vercel.app/login```
+
+usuario: demo@gmail.com
+contraseña: 123456
 
 ## Tecnologías utilizadas
 
@@ -25,10 +34,7 @@ Clona el repositorio: ```git clone https://github.com/PabloEmv/chat-app.git```
 
 Accede a la carpeta del proyecto: ```cd <nombre-del-proyecto>```
 
-Instala las dependencias: ```npm install```
-
-Inicia la aplicación: ```npm run dev```
-## Referencias
+ejecutar index.html
 
 Fuente Poppins (Regular 400)
 
